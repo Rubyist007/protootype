@@ -1,0 +1,23 @@
+name: prototype_app
+version: 0.1.0
+
+authors:
+  - Rubyist007 <VasiliyDybinchyk@gmail.com>
+
+targets:
+  prototype_app:
+    main: src/prototype_app.cr
+
+crystal: 0.24.2
+
+license: MIT
+
+dependencies:
+  twitter-crystal:
+    github: sferik/twitter-crystal
+    version: ~> 0.2.1
+  mongo:
+    github: datanoise/mongo.cr
+    branch: master
+  router:
+    github: tbrand/router.cr

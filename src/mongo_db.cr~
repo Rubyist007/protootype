@@ -1,0 +1,8 @@
+require "mongo"
+
+client = Mongo::Client.new "mongodb://<user>:<password>@<host>:<port>/<db_name>"
+db = client["db_name"]
+
+collection = db["collection_name"]
+collection.insert({ "name" => "James Bond", "age" => 37 })
+

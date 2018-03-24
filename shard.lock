@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  mongo:
+    github: datanoise/mongo.cr
+    commit: 30117a7c9d3eab81557ad0ae833f7109c4e6cabc
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.8
+
+  router:
+    github: tbrand/router.cr
+    version: 0.2.2
+
+  twitter-crystal:
+    github: sferik/twitter-crystal
+    version: 0.2.1
+
